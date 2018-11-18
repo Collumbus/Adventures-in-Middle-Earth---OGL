@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="0.4" release="1.0">
+	<properties>
+		<name>Adventures in Middle-Earth OGL Extension (5e)</name>
+		<version>0.4</version>
+		<author>NotRussellCrowe</author>
+		<description>Adventures in Middle-Earth OGL extension v0.4 for D&amp;D 5e ruleset</description>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+	</properties>
+	<announcement text="Adventures in Middle-Earth OGL extension 0.4 for D&amp;D 5e ruleset for Fantasy Grounds 3.3.0." />
+	<base>
+	
+		<includefile source="campaign/record_char_main.xml" />
+		<includefile source="campaign/record_char_notes.xml" />
+		<!--<includefile source="campaign/record_char.xml" />-->
+		
+		<includefile source="strings/strings_5e.xml" />
+	
+		<includefile source="campaign/template_char.xml" />
+			
+		<script name="DataCommon" file="scripts/data_common.lua" />
+		<script name="ActionShadow" file="scripts/manager_action_shadow.lua" />
+		<script name="ActionCorruption" file="scripts/manager_action_corruption.lua" />
+		<script name="CharacterListManager_Miserable" file="scripts/manager_charlist_miserable.lua" />
+		<script name="CharacterListManager_Madness" file="scripts/manager_charlist_madness.lua" />
+
+		<icon name="charlist_miserable" file="graphics/icons/charlist_miserable.png" />
+		<icon name="charlist_madness" file="graphics/icons/charlist_madness.png" />
+		
+	</base>
+</root>

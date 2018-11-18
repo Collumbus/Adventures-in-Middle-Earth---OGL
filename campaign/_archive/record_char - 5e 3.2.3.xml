@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="charsheet">
+		<frame>charsheet</frame>
+		<placement>
+			<size width="525" height="600" />
+		</placement>
+		<sizelimits>
+			<minimum width="450" height="570" />
+			<dynamic />
+		</sizelimits>
+		<softclose />
+		<nodelete />
+		<playercontrol />
+		<minimize>minimized_char</minimize>
+		<tooltip field="name" />
+		<script file="campaign/scripts/char.lua" />
+		<sheetdata>
+			<anchor_title_charsheet name="contentanchor" />
+			
+			<button_charactivate>
+				<anchored to="contentanchor" position="belowright" offset="0,5" width="23" height="22" />
+			</button_charactivate>
+		
+			<token_char name="token">
+				<anchored to="contentanchor" position="belowright" offset="25,6" width="45" height="45" />
+			</token_char>
+			<genericcontrol>
+				<anchored to="contentanchor" position="belowleft" offset="5,5" width="45" height="45" />
+				<icon>charlist_base</icon>
+				<disabled />
+			</genericcontrol>
+			<portrait_charlocal name="localportrait">
+				<anchored to="contentanchor" position="belowleft" offset="5,5" width="45" height="45" />
+				<invisible />
+			</portrait_charlocal>
+			<portrait_char name="portrait">
+				<anchored to="contentanchor" position="belowleft" offset="5,5" width="45" height="45" />
+			</portrait_char>
+			
+			<label_charframetop name="nametitle">
+				<anchored to="contentanchor" height="20">
+					<top anchor="bottom" offset="7" />
+					<left offset="65" />
+					<right offset="-135" />
+				</anchored>
+				<static textres="char_label_name" />
+			</label_charframetop>
+			<stringu name="name">
+				<anchored to="nametitle" position="insidetop" offset="0,25" height="20" />
+			</stringu>
+			<label_charframetop name="inspirationtitle">
+				<anchored to="nametitle" position="righthigh" offset="20,0" width="30" height="20" />
+				<static textres="char_label_inspiration" />
+				<tooltip textres="char_tooltip_inspiration" />
+			</label_charframetop>
+			<buttongroup_counter name="inspiration">
+				<anchored to="inspirationtitle">
+					<top anchor="bottom" offset="5" />
+					<left anchor="center" offset="-5" />
+				</anchored>
+				<tooltip textres="char_tooltip_inspiration" />
+				<sourcefields><current>inspiration</current></sourcefields>
+				<values><maximum>3</maximum></values>
+			</buttongroup_counter>
+
+			<sub_charsheet name="main">
+				<class>charsheet_main</class>
+			</sub_charsheet>
+			<sub_charsheet name="skills">
+				<class>charsheet_skills</class>
+			</sub_charsheet>
+			<sub_charsheet name="abilities">
+				<class>charsheet_abilities</class>
+			</sub_charsheet>
+			<sub_charsheet name="inventory">
+				<class>charsheet_inventory</class>
+			</sub_charsheet>
+			<sub_charsheet name="notes">
+				<class>charsheet_notes</class>
+			</sub_charsheet>
+			<sub_charsheet name="logs">
+				<class>charsheet_logs</class>
+			</sub_charsheet>
+			<sub_charsheet name="actions">
+				<class>charsheet_actions</class>
+			</sub_charsheet>
+
+			<tabs_charsheet>
+				<tab>
+					<icon>tab_main</icon>
+					<subwindow>main</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_skills</icon>
+					<subwindow>skills</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_abilities</icon>
+					<subwindow>abilities</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_inventory</icon>
+					<subwindow>inventory</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_notes</icon>
+					<subwindow>notes</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_log</icon>
+					<subwindow>logs</subwindow>
+				</tab>
+				<tab>
+					<icon>tab_actions</icon>
+					<subwindow>actions</subwindow>
+				</tab>
+				<activate>1</activate>
+			</tabs_charsheet>
+
+			<close_charsheet />
+			<resize_charsheet />
+		</sheetdata>
+	</windowclass>
+</root>

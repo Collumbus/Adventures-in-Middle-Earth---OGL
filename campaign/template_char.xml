@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	
+<!-- ******************************* -->
+
+	<template name="number_corruptionsave">
+		<number_chartotal>
+			<rollable />
+			<displaysign />
+			<modifiersize>mini</modifiersize>
+			<script>
+				function onInit()
+					addSourceWithOp("abilities." .. target[1] .. ".bonus", "+");
+					addSource("abilities." .. target[1] .. ".saveprof");
+					addSource("profbonus");
+					super.onInit();
+				end
+
+				function onSourceUpdate()
+					local nValue = calculateSources();
+
+					local node = window.getDatabaseNode();
+					if DB.getValue(node, "abilities." .. target[1] .. ".saveprof", 0) == 1 then
+						nValue = nValue + DB.getValue(node, "profbonus", 0);
+					end
+					
+					setValue(nValue);
+				end
+				
+				function action(draginfo)
+					local rActor = ActorManager.getActor("pc", window.getDatabaseNode());
+					ActionCorruption.performRoll(draginfo, rActor, self.target[1]);
+
+					return true;
+				end
+				
+				function onDragStart(button, x, y, draginfo)
+					return action(draginfo);
+				end
+					
+				function onDoubleClick(x,y)
+					return action();
+				end
+			</script>
+		</number_chartotal>
+	</template>
+
+
+	<template name="number_charshadow">
+		<basicnumber>
+			<min value="0" />
+			<hideonvalue value="0" />
+			<font>reference-b-large</font>
+			<description textres="char_tooltip_speed" />
+		</basicnumber>
+	</template>
+	
+	<template name="number_charshadowpermanent">
+		<basicnumber>
+			<min value="0" />
+			<hideonvalue value="0" />
+			<font>reference-b-large</font>
+			<description textres="char_tooltip_speed" />
+		</basicnumber>
+	</template>
+
+
+<!-- ******************************* -->
+	
+</root>
