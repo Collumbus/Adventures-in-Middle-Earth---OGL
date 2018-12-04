@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="0.45" release="1.0">
+	<library>
+		<adventuresinmiddleearthskilldesc static="true">
+			<categoryname type="string">Adventures in Middle-Earth</categoryname>
+			<name type="string">AME-5e New Skills</name>
+			<entries>
+				<reference_skill>
+					<librarylink type="windowreference">
+						<class>referenceindexsorted</class>
+						<recordname>lists.reference_skill@AME-5e New Skills</recordname>
+					</librarylink>
+					<name type="string">Skills</name>
+				</reference_skill>
+			</entries>
+		</adventuresinmiddleearthskilldesc>
+	</library>
+	<lists>
+		<reference_skill>
+			<name type="string">Skills</name>
+			<index>
+				<id-riddle>
+					<listlink type="windowreference">
+						<class>reference_skill</class>
+						<recordname>reference.skilldata.id-riddle@AME-5e New Skills</recordname>
+					</listlink>
+					<name type="string">Riddle</name>
+				</id-riddle>
+				<id-lore>
+					<listlink type="windowreference">
+						<class>reference_skill</class>
+						<recordname>reference.skilldata.id-lore@AME-5e New Skills</recordname>
+					</listlink>
+					<name type="string">Lore</name>
+				</id-lore>
+				<id-shadowlore>
+					<listlink type="windowreference">
+						<class>reference_skill</class>
+						<recordname>reference.skilldata.id-shadowlore@AME-5e New Skills</recordname>
+					</listlink>
+					<name type="string">Shadow-lore</name>
+				</id-shadowlore>
+				<id-traditions>
+					<listlink type="windowreference">
+						<class>reference_skill</class>
+						<recordname>reference.skilldata.id-traditions@AME-5e New Skills</recordname>
+					</listlink>
+					<name type="string">Traditions</name>
+				</id-traditions>
+			</index>
+		</reference_skill>
+	</lists>
+	<reference static="true">
+		<skilldata>
+			<category name="" baseicon="0" decalicon="0">
+				<riddle>
+					<locked type="number">1</locked>
+					<name type="string">Riddle</name>
+					<text type="formattedtext">
+						<p>An accepted custom among many creatures, speaking in riddles is usually allowed among strangers meeting for the first time who want to speak guardedly. Use Intelligence (Riddle) checks to discuss a subject while concealing part of what you know, such as when explaining something about yourself without revealing your true identity. This skill is also used to gain helpful insight into spoken or written riddles.</p>
+					</text>
+				</riddle>
+				<lore>
+					<locked type="number">1</locked>
+					<name type="string">Lore</name>
+					<text type="formattedtext">
+						<p>Your Intelligence (Lore) check measures your ability to recall unusual and obscure information about old legends, ancient war gear, bits of song, rare artefacts, and the reading of runes. Lore replaces the Arcana skill; magic is an imprecise term, for folk use it to describe both the blessings of the Elves and the deceits of the Enemy.</p>
+					</text>
+				</lore>
+				<shadowlore>
+					<locked type="number">1</locked>
+					<name type="string">Shadow-lore</name>
+					<text type="formattedtext">
+						<p>A dark branch of knowledge, Intelligence (Shadow-lore) checks allow you to share what you’ve learned about the ways of the Enemy and the various creatures that stalk through the shadows of Middle-earth. Where Lore deals with the past, Shadow-lore deals with the present and the rising threat of the Enemy’s many minions.</p>
+					</text>
+				</shadowlore>
+				<traditions>
+					<locked type="number">1</locked>
+					<name type="string">Traditions</name>
+					<text type="formattedtext">
+						<p>Your Intelligence (Traditions) check measures your ability to recall the proper courtesies and etiquette expected by the various Free Folk cultures, along with some of their stories about their people and their respective histories. An Intelligence (Traditions) ability check is used whenever you wish to gain an audience with someone of influence. Traditions also covers the knowledge of such religion as exists in Middle-earth.</p>
+					</text>
+				</traditions>
+			</category>
+		</skilldata>
+	</reference>
+</root>

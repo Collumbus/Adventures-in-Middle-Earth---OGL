@@ -717,7 +717,7 @@
 	<string name="ref_type_classhp">Class Hit Points</string>
 	<string name="ref_type_classproficiency">Class Proficiency</string>
 	<string name="ref_type_classability">Class Specialization</string>
-	<string name="ref_type_feat">Virtue</string>
+	<string name="ref_type_feat">Virtues</string>
 	<string name="ref_type_npc">NPC</string>
 	<string name="ref_type_proficiency">Proficiency</string>
 	<string name="ref_type_race">Race</string>
@@ -829,7 +829,7 @@
 	<string name="library_recordtype_empty_background">&#171; New Background &#187;</string>
 	<string name="library_recordtype_label_class">Classes</string>
 	<string name="library_recordtype_empty_class">&#171; New Class &#187;</string>
-	<string name="library_recordtype_label_feat">Virtue</string>
+	<string name="library_recordtype_label_feat">Virtues</string>
 	<string name="library_recordtype_empty_feat">&#171; New Virtue &#187;</string>
 	<string name="library_recordtype_label_race">Culture</string>
 	<string name="library_recordtype_empty_race">&#171; New Race &#187;</string>

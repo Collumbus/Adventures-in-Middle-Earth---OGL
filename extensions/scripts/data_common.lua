@@ -324,7 +324,7 @@ function onInit()
 		[Interface.getString("skill_value_stealth")] = { lookup = "stealth", stat = 'dexterity', disarmorstealth = 1 },
 		[Interface.getString("skill_value_survival")] = { lookup = "survival", stat = 'wisdom' },
 		[Interface.getString("skill_value_riddle")] = { lookup = "riddle", stat = 'intelligence' },
-		[Interface.getString("skill_value_lore")] = { lookup = "survival", stat = 'intelligence' },
+		[Interface.getString("skill_value_lore")] = { lookup = "lore", stat = 'intelligence' },
 		[Interface.getString("skill_value_shadowlore")] = { lookup = "shadowlore", stat = 'intelligence' },
 		[Interface.getString("skill_value_traditions")] = { lookup = "traditions", stat = 'intelligence' },
 
