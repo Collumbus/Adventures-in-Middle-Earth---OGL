@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<!-- 
-  Please see the license.html file included with this distribution for 
+<!--
+  Please see the license.html file included with this distribution for
   attribution and copyright information.
 -->
 
@@ -11,7 +11,7 @@
 		<margins control="0,0,0,10" />
 		<sheetdata>
 			<anchor_column name="columnanchor" />
-			
+
 			<label_charframetop name="sensestitle">
 				<anchored height="20">
 					<top parent="columnanchor" anchor="bottom" relation="relative" offset="15" />
@@ -130,42 +130,51 @@
 				<anchored to="corruptionsave" />
 				<static textres="COR" />
 			</label_chardefense>
-			
+
 			<label_charfieldtop>
 				<anchored to="corruptionsave" offset="0,15" />
 				<static textres="char_label_corruption" />
+				<tooltip textres="char_tooltip_corruption" />
+				<font>subwindowsmalltitle</font>
+				<centre />
 			</label_charfieldtop>
 
 
-			
+
 			<number_charshadow name="shadow" source="shadow.total">
 				<anchored to="corruptionsave" width="40" height="30" position="righthigh" offset="20,0" />
 			</number_charshadow>
-			
+
 			<!-- this label doesn't show up, not sure why -->
 			<label_charfieldtop>
 				<anchored to="shadow" offset="0,15" />
 				<static textres="char_label_shadow" />
+				<tooltip textres="char_tooltip_shadow" />
+				<font>subwindowsmalltitle</font>
+				<centre />
 			</label_charfieldtop>
 
 
 			<number_charshadowpermanent name="shadowpermanent" source="shadowpermanent.total">
 				<anchored to="shadow" position="righthigh" offset="20,0" width="40" height="30" />
 			</number_charshadowpermanent>
-			
+
 			<label_charfieldtop>
 				<anchored to="shadowpermanent" offset="0,15" />
 				<static textres="char_label_shadowpermanent" />
+				<tooltip textres="char_tooltip_shadowpermanent" />
+				<font>subwindowsmalltitle</font>
+				<centre />
 			</label_charfieldtop>
-			
-					
+
+
 			<buttongroup_counter name="miserable">
 				<anchored to="shadowpermanent" position="righthigh" offset="20,0" width="40" height="30" />
 				<tooltip textres="char_tooltip_miserable" />
 				<sourcefields><current>miserable</current></sourcefields>
 				<values><maximum>1</maximum></values>
 			</buttongroup_counter>
-			
+
 			<!-- this label just shows M, not MIS, not sure why -->
 			<!--<label_charfieldtop>
 				<anchored to="miserable" offset="0,15" />
@@ -179,15 +188,15 @@
 				<tooltip textres="char_tooltip_miserable" />
 				<font>subwindowsmalltitle</font>
 				<centre />
-			</label>			
-			
+			</label>
+
 			<buttongroup_counter name="madness">
 				<anchored to="miserable" position="righthigh" offset="20,0" width="40" height="30" />
 				<tooltip textres="char_tooltip_madness" />
 				<sourcefields><current>madness</current></sourcefields>
 				<values><maximum>1</maximum></values>
 			</buttongroup_counter>
-			
+
 			<!-- this label just shows M, not MAD, not sure why -->
 			<label>
 				<anchored to="madness" position="lefthigh" offset="-33,-35" width="40" height="20" />
@@ -195,8 +204,8 @@
 				<tooltip textres="char_tooltip_madness" />
 				<font>subwindowsmalltitle</font>
 				<centre />
-			</label>			
-			
+			</label>
+
 
 <!-- **************************** -->
 		</sheetdata>

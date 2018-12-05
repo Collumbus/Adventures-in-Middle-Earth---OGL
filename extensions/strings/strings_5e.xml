@@ -262,14 +262,17 @@
 	<string name="char_tooltip_speed">Speed</string>
 
 	<string name="char_label_corruption">COR</string>
+	<string name="char_tooltip_corruption">Corruption</string>
 	<string name="char_label_shadow">SHA</string>
+	<string name="char_tooltip_shadow">Temporary Shadow</string>
 	<string name="char_label_shadowpermanent">PERM</string>
+	<string name="char_tooltip_shadowpermanent">Permanent Shadow</string>
 	<string name="char_label_miserable">MIS</string>
 	<string name="char_tooltip_miserable">Miserable</string>
 	<string name="char_label_madness">MAD</string>
 	<string name="char_tooltip_madness">Madness</string>
 
-	<string name="char_label_senses">SENSES</string>
+	<string name="char_label_senses">SHADOW WEAKNESS</string>
 	<string name="char_label_perception">PERC</string>
 
 	<string name="char_label_hpmax">MAX</string>
