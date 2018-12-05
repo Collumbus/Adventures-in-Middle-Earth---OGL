@@ -178,7 +178,7 @@
 	<string name="ps_emptylistenc">Drop completed encounter links here.\nRight click and use menu to award XP.</string>
 
 	<string name="ps_label_name">Name</string>
-	<string name="ps_label_race">Culture</string>
+	<string name="ps_label_race">Cultures</string>
 	<string name="ps_label_classlevel">Class &amp; Level</string>
 	<string name="ps_label_abilities">Abilities</string>
 	<string name="ps_label_ac">AC</string>
@@ -250,7 +250,7 @@
 	<string name="char_label_classlevel">CLASS &amp; LEVEL</string>
 	<string name="char_label_profbonus">PROF</string>
 	<string name="char_label_background">BACKGROUND</string>
-	<string name="char_label_race">CULTURE</string>
+	<string name="char_label_race">CULTURES</string>
 
 	<string name="char_label_stats">ABILITIES</string>
 	<string name="char_label_save">SAVES</string>
@@ -831,8 +831,8 @@
 	<string name="library_recordtype_empty_class">&#171; New Class &#187;</string>
 	<string name="library_recordtype_label_feat">Virtues</string>
 	<string name="library_recordtype_empty_feat">&#171; New Virtue &#187;</string>
-	<string name="library_recordtype_label_race">Culture</string>
-	<string name="library_recordtype_empty_race">&#171; New Race &#187;</string>
+	<string name="library_recordtype_label_race">Cultures</string>
+	<string name="library_recordtype_empty_race">&#171; New Culture &#187;</string>
 	<string name="library_recordtype_label_skill">Skills</string>
 	<string name="library_recordtype_empty_skill">&#171; New Skill &#187;</string>
 	<string name="library_recordtype_label_spell">Spells</string>

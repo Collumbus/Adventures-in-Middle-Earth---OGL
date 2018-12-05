@@ -15,7 +15,6 @@
 
 		<includefile source="campaign/record_char_main.xml" />
 		<includefile source="campaign/record_char_notes.xml" />
-		<!--<includefile source="campaign/record_char.xml" />-->
 
 		<includefile source="strings/strings_5e.xml" />
 		<includefile source="campaign/template_char.xml" />
@@ -29,10 +28,10 @@
 		<icon name="charlist_miserable" file="graphics/icons/charlist_miserable.png" />
 		<icon name="charlist_madness" file="graphics/icons/charlist_madness.png" />
 
-		<icon name="button_races" file="graphics/icons/btnCultures.png" />
-		<icon name="button_races_down" file="graphics/icons/btnCulturesDown.png" />
-		<icon name="button_feats" file="graphics/icons/btnVirtues.png" />
-		<icon name="button_feats_dow" file="graphics/icons/btnVirtuesDown.png" />
+		<icon name="button_races" file="graphics/frames/btnCultures.png" />
+		<icon name="button_races_down" file="graphics/frames/btnCulturesDown.png" />
+		<icon name="button_feats" file="graphics/frames/btnVirtues.png" />
+		<icon name="button_feats_dow" file="graphics/frames/btnVirtuesDown.png" />
 	</base>
 
 </root>
