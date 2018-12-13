@@ -412,7 +412,7 @@
 	<string name="char_label_notes_traits">DISTINCTIVE QUALITY</string>
 	<string name="char_label_notes_ideals">SPECIALTY</string>
 	<string name="char_label_notes_bonds">HOPE</string>
-	<string name="char_label_notes_flaws">DISPAIR</string>
+	<string name="char_label_notes_flaws">DESPAIR</string>
 	<string name="char_label_size">SIZE</string>
 	<string name="char_label_alignment">SHADOW WEAKNESS</string>
 	<string name="char_label_deity">STANDARD OF LIVING</string>
