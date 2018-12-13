@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<!-- 
-  Please see the license.html file included with this distribution for 
+<!--
+  Please see the license.html file included with this distribution for
   attribution and copyright information.
 -->
 
@@ -22,12 +22,12 @@
 			<scrollbar_charcontents />
 		</sheetdata>
 	</windowclass>
-	
+
 	<windowclass name="charsheet_notes_contents">
 		<margins control="0,0,0,2" />
 		<sheetdata>
 			<anchor_column name="columnanchor" />
-			
+
 			<metalplate name="detailstitle">
 				<anchored height="20">
 					<top parent="columnanchor" anchor="bottom" relation="relative" offset="10" />
@@ -71,7 +71,7 @@
 				<anchored to="size" offset="0,5" />
 				<static textres="char_label_size" />
 			</label_charfieldtop>
-			<!--
+
 			<metalplate name="detailstitle2">
 				<anchored height="20">
 					<top parent="columnanchor" anchor="bottom" relation="relative" offset="35" />
@@ -79,7 +79,7 @@
 					<right offset="-10" />
 				</anchored>
 			</metalplate>
-			
+
 			<stringu name="alignment">
 				<anchored to="detailstitle2" position="belowleft" offset="0,5" height="20">
 					<right anchor="center" offset="-5" />
@@ -98,7 +98,7 @@
 				<anchored to="deity" offset="0,5" />
 				<static textres="char_label_deity" />
 			</label_charfieldtop>
-			-->
+			
 			<label_charframetop name="traitstitle">
 				<anchored height="20">
 					<top parent="columnanchor" anchor="bottom" relation="relative" offset="35" />

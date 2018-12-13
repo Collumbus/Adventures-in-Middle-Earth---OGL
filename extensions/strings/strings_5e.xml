@@ -272,7 +272,7 @@
 	<string name="char_label_madness">MAD</string>
 	<string name="char_tooltip_madness">Madness</string>
 
-	<string name="char_label_senses">SHADOW WEAKNESS</string>
+	<string name="char_label_senses">SENSES</string>
 	<string name="char_label_perception">PERC</string>
 
 	<string name="char_label_hpmax">MAX</string>
@@ -414,8 +414,8 @@
 	<string name="char_label_notes_bonds">HOPE</string>
 	<string name="char_label_notes_flaws">DISPAIR</string>
 	<string name="char_label_size">SIZE</string>
-	<string name="char_label_alignment">ALIGNMENT</string>
-	<string name="char_label_deity">DEITY</string>
+	<string name="char_label_alignment">SHADOW WEAKNESS</string>
+	<string name="char_label_deity">STANDARD OF LIVING</string>
 	<string name="char_label_appearance">APPEARANCE</string>
 	<string name="char_label_notes">NOTES</string>
 

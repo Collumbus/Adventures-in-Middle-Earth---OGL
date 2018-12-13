@@ -31,7 +31,7 @@
 		<icon name="button_races" file="graphics/frames/btnCultures.png" />
 		<icon name="button_races_down" file="graphics/frames/btnCulturesDown.png" />
 		<icon name="button_feats" file="graphics/frames/btnVirtues.png" />
-		<icon name="button_feats_dow" file="graphics/frames/btnVirtuesDown.png" />
+		<icon name="button_feats_down" file="graphics/frames/btnVirtuesDown.png" />
 	</base>
 
 </root>
