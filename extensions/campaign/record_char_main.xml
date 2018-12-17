@@ -206,6 +206,37 @@
 				<centre />
 			</label>
 
+			<!-- this add exhaustion levels-->
+			<buttongroup_counter name="exhaustionsave">
+				<anchored to="speed" position="righthigh" offset="20,8" />
+				<allowsinglespacing />
+				<sourcefields>
+					<current>hp.exhaustionsave</current>
+				</sourcefields>
+				<values>
+					<maximum>3</maximum>
+				</values>
+			</buttongroup_counter>
+
+
+			<stringcontrol name="exhaustionsave_label">
+				<anchored to="exhaustionsave"  position="lefthigh" offset="-43,-15" width="60" height="20"/>
+				<font>sheetlabelmini</font>
+				<nodrag />
+				<static textres="char_label_exhaustionsave" />
+				<center />
+			</stringcontrol>
+
+			<buttongroup_counter name="exhaustionsavel2">
+				<anchored to="exhaustionsave" position="belowright" offset="0,2" />
+				<allowsinglespacing />
+				<sourcefields>
+					<current>hp.exhaustionsavel2</current>
+				</sourcefields>
+				<values>
+					<maximum>3</maximum>
+				</values>
+			</buttongroup_counter>
 
 <!-- **************************** -->
 		</sheetdata>

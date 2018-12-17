@@ -283,6 +283,8 @@
 	<string name="char_label_deathsave_succ">S</string>
 	<string name="char_label_deathsave_fail">F</string>
 
+<string name="char_label_exhaustionsave">Exhaustion</string>
+
 	<string name="char_label_hd">HIT DIE</string>
 	<string name="char_label_hdused">USED</string>
 	<string name="char_tooltip_hdused">Hit Dice Used</string>
